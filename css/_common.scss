@@ -1,0 +1,25 @@
+@import './variables';
+@import './mixin';
+
+.contanier{
+    width: $contanier;
+    margin: 0 auto;
+}
+
+.first-title-text{
+    @include font-style(41px,45px,500,black);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.first-desc-text{
+    @include font-style(18px,27px,400,#707070);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.footer-link-text{
+    @include font-style(15px,21px,400,#677294);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
