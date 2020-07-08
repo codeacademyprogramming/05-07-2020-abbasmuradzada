@@ -1,0 +1,6 @@
+@mixin font-style($a,$b,$c,$d) {
+    font-size: $a;
+    line-height: $b;
+    font-weight: $c;
+    color: $d;
+}
